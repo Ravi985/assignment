@@ -8,8 +8,7 @@ body {
     text-align: justify;
     text-justify: auto;
 }
-.toggle,
-[id^=drop] {
+.toggle, #drop{
     display: none;
     margin: 0;
     position: fixed;
@@ -193,7 +192,6 @@ nav ul li a:hover{
         top: 10px;
         width: 200px;
     }
-    .toggle + a,
     .menu {
         display: none;
     }
@@ -208,7 +206,7 @@ nav ul li a:hover{
         cursor: pointer;
         margin: 5px 15px;
     }
-    [id^=drop]:checked + ul {
+    #drop:checked + ul {
         display: block;
     }
     nav ul li {
